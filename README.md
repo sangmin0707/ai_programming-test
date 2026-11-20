@@ -1,2 +1,2 @@
 # ai_programming-test
-줴줴이야
+엄. 줴줴이야
