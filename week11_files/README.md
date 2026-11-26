@@ -13,9 +13,9 @@ cd week11_files
 python load_scores.py scores.csv
 ```
 
-```
-![alt text](how to use img.png)
-```
+
+![alt text](how_to_use_img.png)
+
 
 ## ④ 어떻게 테스트하나요
 ```bash
@@ -24,15 +24,15 @@ pytest test_load_scores.py
 
 ```
 
-```
-![alt text](pytest img.png)
-```
+![alt text](pytest_img.png)
 
 ## ⑤ 파일 구성
 | 파일 | 하는 일 |
 | --- | --- |
 | load_scores.py | 적 CSV를 읽어 (유효한 목록, 건너뛴 줄 기록)을 돌려주는 함수 |
 | test_load_scores.py | 직접 만든 테스트 (정상 · 예외 · 경계값) |
+| empty.csv | 헤더만 있는 파일 — 빈 결과 테스트용 |
+| scores.csv | 테스트용 성적 데이터 (정상 5줄 + 잘못된 줄 5줄 + 빈 줄) |
 | README | 파일 설명 |
 
 ## ⑥ 만든 사람 · AI를 어디에 썼는지
