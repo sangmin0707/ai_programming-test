@@ -31,3 +31,5 @@ def test_점수_경계값(점수, 유효한가):
     쓰기("임시.csv", 점수)
     kept, skipped = load_scores("임시.csv")
     assert (len(kept) == 1) == 유효한가
+
+#Assisted-by copilot
