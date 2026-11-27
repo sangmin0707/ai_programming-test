@@ -1,11 +1,10 @@
 import pandas as pd
-df = pd.read_csv("scores_2026.csv")
+df = pd.read_csv("scores_2026_cp949.csv", encoding="cp949")
 print(df['점수'].mean())
 
-df = pd.read_csv("scores_2026.csv")
-df.shape             
-df["점수"].isna().sum() 
-df.duplicated().sum() 
-df["반"].unique()          
-df["과목"].unique()    
-df["점수"].describe()
+print(df.shape)
+print(df["점수"].isna().sum())
+print(df.duplicated().sum())
+print(df["반"].unique())
+print(df["과목"].unique())
+print(df["점수"].describe())
